@@ -1,1 +1,73 @@
-
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Política de privacidad de AutoFlow Studio, extensión de Chrome para Google Flow.">
+<title>Política de privacidad | AutoFlow Studio</title>
+<style>
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(145deg,#101426,#12102b 80%);color:#f0edff;line-height:1.75}
+main{max-width:870px;margin:35px auto 70px;padding:0 20px}
+header,article{border:1px solid #393657;border-radius:20px;background:#1a1b32;padding:25px 34px}
+article{margin-top:18px}
+.brand{color:#c4acff;font-weight:800;letter-spacing:.4px}
+h1{font-size:clamp(28px,5vw,42px);line-height:1.15;margin:12px 0}
+h2{font-size:20px;color:#e7deff;margin:27px 0 9px}
+p,li{font-size:15.5px}
+small,.date{color:#aeaecb}
+a{color:#c2aeff;text-decoration-thickness:1px;text-underline-offset:3px}
+ul{padding-left:24px}
+.notice{background:#2a2545;padding:12px 16px;border-left:3px solid #aa83ff;border-radius:8px}
+footer{text-align:center;font-size:13px;color:#9999b4;margin:25px 0}
+@media(max-width:600px){main{margin:15px auto 45px}header,article{padding:21px 20px}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="brand">⚡ AutoFlow Studio</div>
+<h1>Política de privacidad</h1>
+<p>Cómo la extensión AutoFlow Studio accede a datos necesarios para automatizar la creación de imágenes y videos en Google Flow.</p>
+<p class="date">Última actualización: 24 de octubre de 2026</p>
+</header>
+<article>
+<h2>1. Responsable y alcance</h2>
+<p>AutoFlow Studio es una extensión independiente de Chrome, publicada por su desarrollador a través de Chrome Web Store. Su finalidad es automatizar acciones solicitadas por el usuario en Google Flow. AutoFlow Studio no es un producto oficial ni está afiliado con Google. Esta política describe el tratamiento de datos efectuado por la extensión, no el tratamiento realizado por Google Flow.</p>
+<h2>2. Información tratada</h2>
+<p>Para ejecutar sus funciones, la extensión puede leer y procesar contenido visible en las páginas admitidas de Google Flow:</p>
+<ul>
+<li>Prompts y descripciones de imágenes, videos, personajes y escenas introducidos por el usuario.</li>
+<li>Imágenes y videos de referencia, miniaturas, títulos, enlaces de medios y resultados de las generaciones.</li>
+<li>Información de la interfaz de Flow (botones, estados, errores y progreso); imágenes o capturas temporales de la pestaña para reconocer controles y miniaturas.</li>
+<li>Preferencias, estados de cola, historial operativo local y registros necesarios para reanudar tareas.</li>
+<li>Estados de las descargas que el usuario haya habilitado.</li>
+</ul>
+<p>La extensión no está diseñada para recopilar contraseñas, datos bancarios, información de salud ni el historial general de navegación ajeno a Google Flow.</p>
+<h2>3. Finalidades</h2>
+<p>Los datos se utilizan para organizar escenas, seleccionar referencias visuales, enviar solicitudes a Google Flow, comprobar resultados, evitar envíos duplicados, recuperar trabajos en curso y descargar videos cuando el usuario activa esa opción. No se usan para publicidad personalizada, comercialización de información ni evaluación crediticia.</p>
+<h2>4. Almacenamiento y conservación</h2>
+<p>La configuración, los prompts, las referencias y el progreso pueden guardarse localmente mediante <code>chrome.storage.local</code> para que las tareas puedan recuperarse tras una recarga. Las capturas de la pestaña se usan temporalmente durante la automatización; esta versión no incorpora un servidor propio para recibir y almacenar dichas capturas. El usuario puede retirar la extensión o borrar sus datos desde las herramientas de Chrome.</p>
+<h2>5. Servicios externos y comunicación de datos</h2>
+<p>AutoFlow Studio funciona sobre <a href="https://flow.google.com/">Google Flow</a>. Los prompts, archivos de referencia y las solicitudes de generación que el usuario envía a través de esa interfaz son procesados por Google conforme a sus propias condiciones y políticas de privacidad. Esta versión no incorpora analítica externa, anuncios ni transmisión de contenido a servidores propios del desarrollador. No vendemos los datos de usuarios. Cualquier cambio material de estas prácticas exigirá actualizar esta política y las declaraciones correspondientes.</p>
+<h2>6. Permisos solicitados</h2>
+<ul>
+<li><strong>storage:</strong> conservar prompts, opciones, asociaciones de medios y estados de trabajo.</li>
+<li><strong>debugger:</strong> interactuar con controles y capturar temporalmente elementos visibles de Flow para automatizar acciones expresamente iniciadas por el usuario.</li>
+<li><strong>alarms:</strong> programar comprobaciones de tareas activas.</li>
+<li><strong>downloads:</strong> iniciar o supervisar descargas opcionales y detectar su estado.</li>
+<li><strong>Acceso a flow.google.com y labs.google (rutas admitidas):</strong> operar en las páginas necesarias para las funciones de la extensión.</li>
+</ul>
+<h2>7. Control del usuario y seguridad</h2>
+<p>El usuario decide cuándo iniciar o detener una automatización y si habilita las descargas. La extensión limita su funcionamiento a los sitios indicados en su manifiesto. La generación puede fallar o interrumpirse cuando Google Flow cambia su interfaz, restringe la disponibilidad de modelos o rechaza una solicitud.</p>
+<h2>8. Consultas de privacidad</h2>
+<p>Para consultas o solicitudes relacionadas con esta política, utiliza el repositorio público de soporte:</p>
+<p class="notice"><a href="https://github.com/davidvilchez18-code/autoflow-privacy/issues">GitHub · AutoFlow Studio — Consultas y soporte</a><br><small>Las incidencias de GitHub son públicas. No publiques contraseñas, datos de cuentas ni otra información personal sensible. Para cuestiones privadas, contacta al desarrollador mediante los medios de contacto disponibles en su perfil de GitHub.</small></p>
+<h2>9. Cambios en esta política</h2>
+<p>Podremos modificar esta política si cambian las funciones de AutoFlow Studio, los permisos o las prácticas de tratamiento de datos. La fecha indicada al principio permite conocer su actualización más reciente.</p>
+</article>
+<footer>© 2026 AutoFlow Studio · Política de privacidad</footer>
+</main>
+</body>
+</html>
