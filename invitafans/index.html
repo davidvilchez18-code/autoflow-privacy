@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index, follow"><meta name="description" content="Política de privacidad oficial de InvitaFans, extensión para administrar invitaciones desde reacciones de Facebook.">
+<title>Política de privacidad | InvitaFans</title>
+<style>
+:root{color-scheme:light;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+*{box-sizing:border-box}body{margin:0;background:#f5f8fc;color:#18253b;line-height:1.75}
+header{background:#071a36;color:#fff;padding:24px 24px}
+.bar{max-width:850px;margin:auto;display:flex;align-items:center;gap:14px}
+.logo{height:42px;width:42px;display:grid;place-items:center;background:linear-gradient(135deg,#38bef7,#435de9);border-radius:13px;font-size:25px}
+.brand{font-size:21px;font-weight:750;letter-spacing:-.3px}
+.tag{font-size:12px;color:#c5d8ee;display:block;font-weight:450}
+main{max-width:850px;margin:42px auto 70px;padding:0 22px}
+article{background:white;border:1px solid #e0e7ef;border-radius:18px;padding:32px 40px;box-shadow:0 7px 35px rgba(11,32,65,.05)}
+h1{font-size:clamp(25px,4.5vw,33px);line-height:1.25;letter-spacing:-.8px;margin:0 0 18px}
+h2{font-size:20px;line-height:1.4;color:#0e3270;margin:30px 0 10px}
+h2:first-of-type{margin-top:28px}
+p,li{font-size:15px}p{margin:11px 0}ul{padding-left:25px}
+li{padding-bottom:7px}a{color:#1557b0;overflow-wrap:anywhere}
+code{font-size:13px;background:#f0f4fa;padding:2px 5px;border-radius:4px}
+footer{max-width:850px;margin:0 auto 35px;padding:0 22px;color:#6c7b8f;font-size:13px;text-align:center}
+@media(max-width:620px){main{margin:18px auto 36px;padding:0 12px}article{padding:25px 19px;border-radius:13px}header{padding:17px 15px}}
+</style></head><body>
+<header><div class="bar"><div class="logo" aria-hidden="true">✦</div><div><span class="brand">InvitaFans</span><span class="tag">Transparencia y privacidad</span></div></div></header>
+<main><article><h1>Política de privacidad de InvitaFans — Reacciones de Facebook</h1>
+<p><strong>Última actualización:</strong> 30 de octubre de 2026</p>
+<p><strong>Extensión:</strong> InvitaFans — Reacciones de Facebook, versión 1.5.0</p>
+<p><strong>Responsable de la extensión:</strong> desarrollador de GitHub <a href="https://github.com/davidvilchez18-code" target="_blank" rel="noopener noreferrer">davidvilchez18-code</a></p>
+<h2>1. Finalidad de InvitaFans</h2>
+<p>InvitaFans es una extensión de Chrome que ayuda a los administradores de páginas de Facebook a gestionar invitaciones para seguir sus páginas desde las listas de reacciones de sus publicaciones. Permite identificar los botones «Invitar», iniciar, pausar, reanudar y detener acciones de invitación, mostrar resultados y aplicar límites y descansos.</p>
+<p>La extensión es independiente y no está afiliada, patrocinada ni respaldada por Meta o Facebook.</p>
+<h2>2. Información procesada</h2>
+<p>Para ofrecer su función, la versión 1.5.0 procesa:</p>
+<ul>
+<li><strong>Contenido visible en Facebook:</strong> textos y estados de los botones de invitación, reacciones, nombres visibles y enlaces de perfiles que aparecen en la lista abierta por el administrador. Los nombres y enlaces se usan temporalmente en memoria para identificar registros y evitar acciones duplicadas durante la ejecución.</li>
+<li><strong>Actividad de la extensión:</strong> número de intentos, confirmaciones observadas, contadores, marcas de tiempo, fechas de bloqueo y descansos. Estos registros se guardan en el almacenamiento local del perfil de Chrome mediante <code>chrome.storage.local</code>.</li>
+<li><strong>Estado de la pestaña activa:</strong> información necesaria para localizar y operar sobre la ventana de reacciones abierta en Facebook o Meta Business Suite.</li>
+</ul>
+<p>InvitaFans no solicita que el usuario entregue su contraseña de Facebook, números de tarjeta, información de salud ni datos crediticios.</p>
+<h2>3. Cómo se obtiene y utiliza la información</h2>
+<p>El código de la extensión se ejecuta en los dominios de Facebook declarados en su paquete (<code>www.facebook.com</code>, <code>web.facebook.com</code> y <code>business.facebook.com</code>). Las invitaciones se inician mediante una acción del administrador desde InvitaFans. La información se utiliza exclusivamente para identificar botones disponibles, gestionar los intentos, comprobar los cambios de estado visibles y aplicar las restricciones internas.</p>
+<h2>4. Almacenamiento, conservación y seguridad</h2>
+<p>Los contadores y marcas de tiempo se guardan <strong>localmente en el perfil de Chrome</strong>, no en una cuenta o servidor del desarrollador. El cálculo del cupo diario utiliza una ventana móvil de 24 horas; los contadores acumulados y ciertos estados pueden mantenerse hasta que se borren los datos de la extensión o se desinstale. Los nombres y enlaces de perfiles utilizados durante el recorrido no se incorporan al historial persistente de invitaciones de la versión 1.5.0.</p>
+<p>La extensión no incorpora servicios propios de analítica, publicidad ni seguimiento externo. El acceso a datos del navegador está limitado a los permisos indicados en su manifiesto.</p>
+<h2>5. Comunicación y compartición de datos</h2>
+<p>La versión 1.5.0 <strong>no contiene funciones destinadas a enviar el historial local de invitaciones ni los nombres de perfiles a servidores del desarrollador</strong>. No vendemos datos personales ni los utilizamos para publicidad, evaluación crediticia u otros fines ajenos a la función descrita.</p>
+<p>Cuando el administrador envía una invitación, Facebook/Meta procesa esa acción dentro de su plataforma. Ese tratamiento se rige también por la política de privacidad y las condiciones de Meta. InvitaFans no controla el tratamiento que realiza Meta. Google y GitHub pueden procesar datos propios de sus respectivos servicios cuando se usa Chrome Web Store o se consulta esta página, independientemente del funcionamiento de la extensión.</p>
+<h2>6. Permisos de Chrome</h2>
+<ul>
+<li><strong>storage:</strong> conservar localmente historial, contadores y bloqueos.</li>
+<li><strong>activeTab:</strong> interactuar con la pestaña activa a solicitud del usuario.</li>
+<li><strong>scripting:</strong> ejecutar archivos JavaScript incluidos en el paquete de la extensión.</li>
+<li><strong>notifications:</strong> mostrar avisos sobre límites y bloqueos.</li>
+<li><strong>Acceso a sitios de Facebook:</strong> identificar las listas de reacciones y estados de invitación únicamente en los dominios declarados.</li>
+</ul>
+<h2>7. Opciones del usuario</h2>
+<p>El administrador puede pausar o detener la actividad desde la interfaz. También puede desinstalar InvitaFans o borrar los datos almacenados por la extensión desde Chrome. Al hacerlo, se pueden eliminar sus contadores locales y su historial. Para consultas sobre el tratamiento de datos o solicitudes relacionadas con esta política, se puede contactar con el desarrollador mediante los <a href="https://github.com/davidvilchez18-code/autoflow-privacy/issues" target="_blank" rel="noopener noreferrer">Issues de GitHub</a>.</p>
+<h2>8. Menores de edad</h2>
+<p>InvitaFans está destinada a administradores de páginas, no es un producto diseñado para niños ni solicita que menores de edad proporcionen datos personales a la extensión.</p>
+<h2>9. Cambios de la política</h2>
+<p>Esta política describe la versión 1.5.0 examinada el 30 de octubre de 2026. Si se incorporan nuevas funciones que alteren la recogida, utilización, conservación o transmisión de datos, la política y las declaraciones de Chrome Web Store deberán actualizarse antes de distribuir dichos cambios.</p>
+<h2>10. Contacto</h2>
+<p><strong>Desarrollador:</strong> <a href="https://github.com/davidvilchez18-code" target="_blank" rel="noopener noreferrer">davidvilchez18-code</a></p>
+<p><strong>Consultas:</strong> <a href="https://github.com/davidvilchez18-code/autoflow-privacy/issues" target="_blank" rel="noopener noreferrer">Abrir una consulta en GitHub</a></p></article></main>
+<footer>InvitaFans · Documento público de privacidad · Actualizado el 30 de octubre de 2026</footer>
+</body></html>
